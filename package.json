@@ -1,0 +1,27 @@
+{
+  "name": "@pxblue/types",
+  "version": "1.0.0",
+  "description": "Type definitions shared between PX Blue packages",
+  "main": "index.ts",
+  "scripts": {
+    "test": "./buildTest.sh",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxblue/types.git"
+  },
+  "keywords": [
+    "PXBlue",
+    "types"
+  ],
+  "author": "px-blue <pxblue@eaton.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/pxblue/types/issues"
+  },
+  "homepage": "https://github.com/pxblue/types#readme",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
