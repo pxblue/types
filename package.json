@@ -2,7 +2,8 @@
   "name": "@pxblue/types",
   "version": "1.0.0",
   "description": "Type definitions shared between PX Blue packages",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "./buildTest.sh",
     "build": "tsc"
@@ -23,5 +24,11 @@
   "homepage": "https://github.com/pxblue/types#readme",
   "devDependencies": {
     "typescript": "^3.7.2"
-  }
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "dist"
+  ]
 }
