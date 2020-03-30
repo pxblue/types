@@ -7,3 +7,5 @@ This package can be viewed on NPM as [@pxblue/types](https://www.npmjs.com/packa
 This package can be built by running:
 
 ```yarn build```
+
+This package is intended to be published from the root directory.
