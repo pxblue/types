@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "./buildTest.sh",
-    "build": "rm -r dist & tsc"
+    "build": "rm -r dist && tsc"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "package.json",
     "README.md",
     "LICENSE",
+    "CHANGELOG.md",
     "dist"
   ]
 }
