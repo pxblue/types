@@ -1,11 +1,14 @@
 # PX Blue Types
 
-This repository contains common type definitions used within various PX Blue packages.
+## Installation
+```
+yarn add --dev @pxblue/types
+```
+
+## Summary
+This package contains type definitions shared across other PX Blue packages. Most PX Blue packages are written in TypeScript and export their own types, but this package contains ones that are shared to avoid code duplication.
+
+The following types are exposed:
+- `PXBlueColor`
+
 This package can be viewed on NPM as [@pxblue/types](https://www.npmjs.com/package/@pxblue/types)
-
-### Build
-This package can be built by running:
-
-```yarn build```
-
-This package is intended to be published from the root directory.
