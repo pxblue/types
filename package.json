@@ -1,35 +1,35 @@
 {
-  "name": "@pxblue/types",
-  "version": "1.0.0",
-  "description": "Type definitions shared between PX Blue packages",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "./buildTest.sh",
-    "build": "rm -rf dist && tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pxblue/types.git"
-  },
-  "keywords": [
-    "PXBlue",
-    "types"
-  ],
-  "author": "px-blue <pxblue@eaton.com>",
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/pxblue/types/issues"
-  },
-  "homepage": "https://github.com/pxblue/types#readme",
-  "devDependencies": {
-    "typescript": "^3.7.2"
-  },
-  "files": [
-    "package.json",
-    "README.md",
-    "LICENSE",
-    "CHANGELOG.md",
-    "dist"
-  ]
+    "name": "@pxblue/types",
+    "version": "2.0.0",
+    "description": "Type definitions shared between PX Blue packages",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "./buildTest.sh",
+        "build": "rm -rf dist && tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pxblue/types.git"
+    },
+    "keywords": [
+        "PXBlue",
+        "types"
+    ],
+    "author": "px-blue <pxblue@eaton.com>",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/pxblue/types/issues"
+    },
+    "homepage": "https://github.com/pxblue/types#readme",
+    "devDependencies": {
+        "typescript": "^3.7.2"
+    },
+    "files": [
+        "package.json",
+        "README.md",
+        "LICENSE",
+        "CHANGELOG.md",
+        "dist"
+    ]
 }
