@@ -32,14 +32,7 @@ jobs:
       - run:
           name: Publish @pxblue/types
           command:  |
-            MASTER_VERSION=`node -p "require('./package.json').version"`
-            NPM_LATEST_VERSION=`npm show @pxblue/types version`
-            if ! [ $MASTER_VERSION == $NPM_LATEST_VERSION ];
-            then
-                npm publish
-            else
-                echo "Latest version is already published."
-            fi
+            yarn publish:package
 
 workflows:
   version: 2
