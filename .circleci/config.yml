@@ -46,7 +46,7 @@ jobs:
       - run:
           name: Tag @pxblue/types
           command: |
-            yarn tag:tag -b $CIRCLE_BRANCH
+            yarn tag:package -b $CIRCLE_BRANCH
 
 workflows:
   version: 2
